@@ -6,6 +6,102 @@ body{
     padding: 0;
     margin: 0;
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     color: black;
+}
+header{
+    height: 100%;
+    width: 100%;
+
+
+}.menu{
+    width: 100%;
+    padding: 20px 30px 20px 10px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+   
+}
+.menu a{
+    color: black;
+}
+a:hover{
+    color:rgb(255, 196, 0);
+}
+
+.accueille{
+    padding-right: 400px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.qui-suis-je{
+    width: 100%;
+    background-image: url(/src/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+}
+.moi-droit{
+    background-color: rgba(82, 81, 81, 0.432);
+    color: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 118px 0 118px 0;
+}
+.moi-droit h1{
+font-size: 70px;
+padding-top: 80px;
+text-transform: uppercase;
+}
+ #qui-suis-je{
+    padding: 90px 0 90px 0;
+    margin: 0 200px 0 200px;
+    text-align: center;
+}
+.intro-moi p{
+    padding: 20px 0 20px;
+}
+#experiences{
+    padding: 90px 0 90px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.intro-experiences p{
+    padding: 20px 0 20px;
+}
+
+.les-postes{
+    margin-bottom: 20px;
+}
+.annee-job{
+    text-transform: uppercase;
+ 
+    font-size: larger;
+    width: 20%;
+    margin-right: 50px;
+}
+.info-job{
+    text-align: left;
+}
+#scolarites{
+    padding: 90px 0 90px 0;
+    text-align: center;
+
+}
+.intro-scolarites p{
+    padding: 20px 0 20px;
+}
+.etudes{
+    padding-bottom: 40px;
+    margin-bottom:20px;
+    width:  auto;
+    border:2px solid black;
+}
+.niveau-etablissements{
+    text-transform: uppercase;
+    font-weight: bold;
 }
