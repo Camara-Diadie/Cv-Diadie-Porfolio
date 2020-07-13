@@ -19,7 +19,7 @@ header{
     padding: 20px 30px 20px 10px;
     position: fixed;
     z-index: 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
    
 }
 .menu a{
@@ -36,7 +36,7 @@ a:hover{
 }
 .qui-suis-je{
     width: 100%;
-    background-image: url(/src/img/1.jpg);
+    background-image: url(/src/img/daniel-korpai-HyTwtsk8XqA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,12 +44,13 @@ a:hover{
     height: 700px;
 }
 .moi-droit{
-    background-color: rgba(82, 81, 81, 0.432);
+    background-color: rgba(255, 255, 255, 0.336);
     color: black;
     height: auto;
     width: 100%;
     text-align: center;
     padding: 118px 0 118px 0;
+
 }
 .moi-droit h1{
 font-size: 70px;
@@ -63,6 +64,19 @@ text-transform: uppercase;
 }
 .intro-moi p{
     padding: 20px 0 20px;
+}
+.photo-moi{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+
+}
+.img-fluid{
+border-radius: 700px;
+
+}
+.text-moi{
+    padding-top: 20px;
 }
 #experiences{
     padding: 90px 0 90px 0;
@@ -79,7 +93,6 @@ text-transform: uppercase;
 }
 .annee-job{
     text-transform: uppercase;
- 
     font-size: larger;
     width: 20%;
     margin-right: 50px;
@@ -100,8 +113,91 @@ text-transform: uppercase;
     margin-bottom:20px;
     width:  auto;
     border:2px solid black;
+
 }
 .niveau-etablissements{
     text-transform: uppercase;
-    font-weight: bold;
+}
+
+#competences{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 90px 0 90px 0;
+}
+.intro-competences p{
+    padding: 20px 0 20px;
+}
+#competences img{
+    height: 96px;
+    width: 96px;
+}
+.mysql{
+    background-color: white;
+    color: white;
+}
+
+
+.savoir-etre{
+    padding-top: 40px;
+    text-transform: uppercase;
+
+}
+#citation{
+    height: 400px;
+    text-align: center;
+
+}
+.text-citation{
+    padding-top: 100px;
+    font-size: 25px;
+}
+.text-citation p{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#contact{
+    padding: 90px 0 90px 0;
+    text-align: center;
+    background-color: black;
+}
+.coordonnee{
+    padding-top: 150px;
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+}
+.coordonnee h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.photo-contact{
+    background-image: url(/src/img/markus-winkler-q3QPw37J6Xs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.intro-moi, .intro-experiences, .intro-scolarites, .intro-competences{
+    text-transform: uppercase;
+}
+.image-separation-1{
+    background-image: url(/src/img/clavier-noir.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    width: auto;
+}
+.image-separation-2{
+    background-image: url(/src/img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    width: auto;
+}
+
+footer{
+    text-align: center;
 }
