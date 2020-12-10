@@ -36,7 +36,7 @@ a:hover{
 }
 .qui-suis-je{
     width: 100%;
-    background-image: url(/src/img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-image: url(../img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ border-radius: 700px;
     text-transform: uppercase;
 }
 .photo-contact{
-    background-image: url(/src/img/alexander-andrews-HgUDpaGPTEA-unsplash.jpg);
+    background-image: url(../img/alexander-andrews-HgUDpaGPTEA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -184,14 +184,7 @@ border-radius: 700px;
     text-transform: uppercase;
 }
 .image-separation-1{
-    background-image: url(/src/img/clavier-noir.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 350px;
-    width: auto;
-}
-.image-separation-2{
-    background-image: url(/src/img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg);
+    background-image: url(../img/clavier-noir.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 350px;
@@ -200,4 +193,66 @@ border-radius: 700px;
 
 footer{
     text-align: center;
+}
+
+@media screen and (max-width : 427px){
+
+    .menu{
+        width: 100%;
+        padding: 20px 100px 20px 10px;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+       
+    }
+    .accueille{
+        padding-right: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .qui-suis-je{
+        width: 100%;
+        background-image: url(/src/img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 700px;
+    }
+    .moi-droit{
+        background-color: rgba(255, 255, 255, 0.336);
+        color: black;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 200px 20px 200px 0;
+    
+    }
+    .moi-droit h1{
+    font-size: 40px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    }
+    #qui-suis-je{
+        padding: 90px 0 90px 0;
+        margin: 0 100px 0 100px;
+        text-align: center;
+    }
+    .annee-job{
+
+        margin-left: 10px;
+        margin-right: 70px;
+    }
+    .info-job{
+        text-align: left;
+    }
+    .image-separation-1{
+        background-image: url(/src/img/clavier-noir.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 150px;
+        width: auto;
+    }
+    
 }
